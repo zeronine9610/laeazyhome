@@ -1,0 +1,77 @@
+@import url(./font.css);
+/* font-family: 'Noto Sans KR', sans-serif;*/
+
+/* 크롬 스크롤바 삭제 */
+::-webkit-scrollbar { display: none; }
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: Noto Sans KR;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+.mypage_title{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.Page_back{
+	position:relative;
+	width: 398px;
+	top: 170px;
+	text-align: center;
+	margin: 0 auto;
+}
+input[type=text],input[type=password],.btn{
+	width: 398px;
+	height: 55px;
+	margin-top: 10px;
+}
+.p1{
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin-top: 10px;
+}
+.mypage_form{
+	margin-top: 60px;
+}
+.btn{
+	background-color: black;
+	color:white;
+	font-size: 20px;
+}
+#reg_id_css{
+	size: 10px;
+	
+	}
+#reg_btn{
+	width: 90px;
+	position: relative;
+	top: -45px;
+	left: 110px;
+	height: 30px;
+	
+}
+
+/* 회원가입 */
+
+#sample3_postcode{
+	width: 100px;
+	margin-left: -235px;
+	margin-top: 25px
+}
+#sample3_detailAddress{
+	width: 273px;
+}
+#sample3_extraAddress{
+	
+	width: 105px;
+}
+#post_btn{
+	width: 100px;
+	height: 58px;
+}

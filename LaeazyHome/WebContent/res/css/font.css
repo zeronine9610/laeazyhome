@@ -1,0 +1,22 @@
+/* Logo Font Fluttershy */
+@font-face{
+  font-family: "fluttershy";
+  src:url(../font/FontsFree-Net-Fluttershy-Regular.ttf) format("truetype");
+  }
+/* En font */
+@font-face{
+  font-family: "segoe";
+  src:url(../font/segoe/segoeui.ttf) format("truetype");
+  }
+@font-face{
+  font-family: "segoeBold";
+  src:url(../font/segoe/segoeuib.ttf) format("truetype");
+  }
+@font-face{
+  font-family: "segoelight";
+  src:url(../font/segoe/segoeuil.ttf) format("truetype");
+  }
+@font-face{
+  font-family: "segoeSemiBold";
+  src:url(../font/segoe/seguisb.ttf) format("truetype");
+  }

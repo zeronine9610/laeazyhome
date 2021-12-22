@@ -1,0 +1,91 @@
+@import url(./font.css);
+/* font-family: 'Noto Sans KR', sans-serif;*/
+
+/* 农芬 胶农费官 昏力 */
+::-webkit-scrollbar { display: none; }
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: Noto Sans KR;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+
+.product_page_back{
+	position:relative;
+	width: 1500px;
+	height:auto;
+	margin: 0 auto;
+}
+.product-list-title{
+  position: absolute;
+  top: 120px;
+  left:0;
+  font-size: 18px;
+  font-family: Noto Sans;
+  font-weight: normal;
+  line-height: 28px;
+}
+.product-list-title-2{
+  position: absolute;
+  top: 120px;
+  left:510px;
+  font-size: 18px;
+  font-family: Noto Sans;
+  font-weight: normal;
+  line-height: 26px;
+}
+.product-list-title-3{
+  position: absolute;
+  top: 120px;
+  left:1010px;
+  font-size: 18px;
+  font-family: Noto Sans;
+  font-weight: lighter;
+  line-height: 26px;
+}
+.product-list-back{
+  position: relative;
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 250px;
+}
+.product-list-back_index{
+  position: relative;
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 160px;
+}
+.product-title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+  z-index: 8;
+  font-size: 30px;
+  visibility: hidden;
+}
+.product-list{
+  position: relative;
+  margin:5px;
+  text-align: center;
+  cursor: pointer;
+}
+.product-list img:hover{
+  opacity: 0.5;
+}
+.product-list:hover .product-title{
+  visibility: visible;
+}
+.product-img img{
+  width: 490px;
+ height: 705px;
+ 
+}

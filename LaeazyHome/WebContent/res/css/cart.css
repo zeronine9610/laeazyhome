@@ -1,0 +1,78 @@
+@import url(./font.css);
+/* font-family: 'Noto Sans KR', sans-serif;*/
+
+/* 农芬 胶农费官 昏力 */
+::-webkit-scrollbar { display: none; }
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: Noto Sans KR;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+.cart_back{
+	position:relative;
+	width: 1300px;
+	top: 170px;
+	margin: 0 auto;
+	
+}
+.cart_title{
+	font-size: 30px;
+	font-weight: bold;
+}
+table{
+	width: 1300px;
+	text-align: left;
+	margin-top: 70px;
+}
+.table_title{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 120px;
+	padding-bottom: 40px;
+	height: 50px;
+}
+
+.tr{
+	border-top: .5px solid #999;
+}
+.tr p{
+	display: inline-block;
+}
+.tr img {
+	width: 200px;
+	height: 220px;
+	margin: 10px;
+}
+.td{
+	vertical-align: middle;
+}
+.cart_result{
+	width: 500px;
+	float: right;
+}
+
+.table2{
+	width: 500px;
+}
+.table2 th{
+	font-size: 20px;
+	font-weight: bold;
+}
+.table2 td{
+	text-align: right;
+	padding: 10px;
+}
+.payBtn{
+	float: right;
+	margin-top: 70px;
+	width: 250px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}

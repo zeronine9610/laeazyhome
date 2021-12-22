@@ -1,0 +1,55 @@
+@import url(./font.css);
+/* font-family: 'Noto Sans KR', sans-serif;*/
+
+/* 农芬 胶农费官 昏力 */
+::-webkit-scrollbar { display: none; }
+
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: Noto Sans KR;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.search_back{
+	text-align: center;
+}
+
+
+.search_Title{
+	position: relative;
+	top: 170px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.search_Title span{
+	font-style: italic;
+}
+.search_subTitle{
+	position: relative;
+	top: 190px;
+}
+
+.search_input{
+	position: relative;
+	top: 230px;
+	width: 400px;
+	height: 50px;
+	margin-bottom: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 0.5px solid #999;
+	text-align: center;
+}
+.searchImg{
+	position: relative;
+	top: 255px;
+}
+
+
